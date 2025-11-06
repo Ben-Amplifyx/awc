@@ -8,23 +8,20 @@ import {ThemeSwitcher} from '../../theme-switcher/theme-switcher';
 <Container>
 	<section class="hero-section__section">
 		<div class="hero-section__text">
-				<h1>Welcome to Odyssey</h1>
+				<h1>All About Cat's</h1>
 				<p>
-					A marketing website theme built with <a
-						href="https://astro.build"
-						target="_blank"
-						rel="noreferrer">Astro</a
-					> and carefully crafted for startups and businesses.
+					Your comprehensive resource for everything about cats. Learn about cat breeds,
+					behavior, health, and care tips to help you become the best cat parent possible.
 				</p>
 				<div class="hero-btns__container">
-					<Button href="/theme/get-started" customIcon
-						>Get Started
+					<Button href="/blog" customIcon
+						>Explore Cat Breeds
             <Fragment slot="icon">
               <Icon name="ic:baseline-chevron-right"/>
             </Fragment>
             </Button
 					>
-					<Button href="/theme/style-guide" unelevated>Style Guide</Button>
+					<Button href="/cats/fun-facts" unelevated>Fun Cat Facts</Button>
 				</div>
         {settings.enableThemeSwitcher && <ThemeSwitcher client:only/>}
 		</div>

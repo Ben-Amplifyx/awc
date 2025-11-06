@@ -4,15 +4,23 @@ export const nav = [
 		slug: '/',
 	},
 	{
-		title: 'Blog',
+		title: 'Cat Breeds',
 		slug: '/blog',
 	},
 	{
-		title: 'About',
-		slug: '/company/about',
+		title: 'Gallery',
+		slug: '/cats/gallery',
 	},
 	{
-		title: 'Contact',
-		slug: '/company/contact',
+		title: 'Behavior',
+		slug: '/cats/behavior',
+	},
+	{
+		title: 'Health',
+		slug: '/cats/health',
+	},
+	{
+		title: 'Fun Facts',
+		slug: '/cats/fun-facts',
 	},
 ];
