@@ -1,0 +1,225 @@
+---
+import { Container } from '@components/odyssey-theme';
+import Layout from '../../layouts/Page.astro';
+
+const seo = {
+  title: 'Fun Cat Facts | All About Cat\'s',
+  description: 'Discover fascinating and entertaining facts about cats that will amaze and delight you.',
+};
+---
+
+<Layout {seo}>
+  <Container>
+    <section class="hero-section">
+      <h1>Fun Cat Facts 🎉</h1>
+      <p class="lead">
+        Discover fascinating and entertaining facts about our feline friends that will amaze and delight you!
+      </p>
+    </section>
+
+    <section class="facts-section">
+      <h2>Did You Know?</h2>
+
+      <div class="fact-card">
+        <h3>🐱 Physical Abilities</h3>
+        <ul>
+          <li>[Add fact about jumping ability]</li>
+          <li>[Add fact about running speed]</li>
+          <li>[Add fact about flexibility]</li>
+          <li>[Add fact about balance]</li>
+          <li>[Add fact about landing on feet]</li>
+        </ul>
+      </div>
+
+      <div class="fact-card">
+        <h3>👂 Senses & Perception</h3>
+        <ul>
+          <li>[Add fact about hearing range]</li>
+          <li>[Add fact about night vision]</li>
+          <li>[Add fact about whiskers]</li>
+          <li>[Add fact about smell]</li>
+          <li>[Add fact about taste]</li>
+        </ul>
+      </div>
+
+      <div class="fact-card">
+        <h3>😺 Communication & Behavior</h3>
+        <ul>
+          <li>[Add fact about meowing]</li>
+          <li>[Add fact about purring]</li>
+          <li>[Add fact about body language]</li>
+          <li>[Add fact about territorial behavior]</li>
+          <li>[Add fact about grooming]</li>
+        </ul>
+      </div>
+
+      <div class="fact-card">
+        <h3>😴 Sleep & Activity</h3>
+        <ul>
+          <li>[Add fact about sleeping hours]</li>
+          <li>[Add fact about crepuscular nature]</li>
+          <li>[Add fact about dream behavior]</li>
+          <li>[Add fact about energy conservation]</li>
+          <li>[Add fact about hunting instincts]</li>
+        </ul>
+      </div>
+
+      <div class="fact-card">
+        <h3>📚 Historical & Cultural Facts</h3>
+        <ul>
+          <li>[Add fact about ancient Egypt]</li>
+          <li>[Add fact about ship cats]</li>
+          <li>[Add fact about famous cats]</li>
+          <li>[Add fact about domestication]</li>
+          <li>[Add fact about cultural significance]</li>
+        </ul>
+      </div>
+
+      <div class="fact-card">
+        <h3>🔬 Science & Biology</h3>
+        <ul>
+          <li>[Add fact about DNA]</li>
+          <li>[Add fact about lifespan]</li>
+          <li>[Add fact about reproduction]</li>
+          <li>[Add fact about coat patterns]</li>
+          <li>[Add fact about unique features]</li>
+        </ul>
+      </div>
+
+      <div class="fact-card">
+        <h3>🌍 Cats Around the World</h3>
+        <ul>
+          <li>[Add fact about cat population]</li>
+          <li>[Add fact about different breeds]</li>
+          <li>[Add fact about wild relatives]</li>
+          <li>[Add fact about record holders]</li>
+          <li>[Add fact about rare breeds]</li>
+        </ul>
+      </div>
+
+      <div class="fact-card">
+        <h3>❤️ Cats & Humans</h3>
+        <ul>
+          <li>[Add fact about bonding]</li>
+          <li>[Add fact about health benefits]</li>
+          <li>[Add fact about therapy cats]</li>
+          <li>[Add fact about cat intelligence]</li>
+          <li>[Add fact about human-cat communication]</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="trivia-section">
+      <h2>Cat Trivia Challenge</h2>
+      <p>[Add interactive trivia questions here]</p>
+      <div class="trivia-placeholder">
+        <p>🎯 Question 1: [Add question]</p>
+        <p>🎯 Question 2: [Add question]</p>
+        <p>🎯 Question 3: [Add question]</p>
+      </div>
+    </section>
+
+    <section class="myth-busting">
+      <h2>Cat Myth Busters</h2>
+      <div class="myth-card">
+        <h3>❌ Myth: Cats always land on their feet</h3>
+        <p>[Add explanation of the truth]</p>
+      </div>
+      <div class="myth-card">
+        <h3>❌ Myth: Cats have nine lives</h3>
+        <p>[Add explanation of the truth]</p>
+      </div>
+      <div class="myth-card">
+        <h3>❌ Myth: Cats are solitary animals</h3>
+        <p>[Add explanation of the truth]</p>
+      </div>
+      <div class="myth-card">
+        <h3>❌ Myth: Milk is good for cats</h3>
+        <p>[Add explanation of the truth]</p>
+      </div>
+    </section>
+  </Container>
+</Layout>
+
+<style>
+  .hero-section {
+    text-align: center;
+    margin: 3rem 0;
+  }
+
+  .lead {
+    font-size: 1.25rem;
+    color: var(--theme-text-secondary);
+    max-width: 800px;
+    margin: 1rem auto;
+  }
+
+  .facts-section {
+    margin: 3rem 0;
+  }
+
+  .fact-card {
+    margin: 2rem 0;
+    padding: 2rem;
+    background: var(--theme-surface-1);
+    border-radius: 8px;
+    border-left: 4px solid var(--theme-primary);
+  }
+
+  .fact-card h3 {
+    margin-bottom: 1rem;
+  }
+
+  .fact-card ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .fact-card li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+  }
+
+  .fact-card li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--theme-primary);
+    font-weight: bold;
+  }
+
+  .trivia-section {
+    margin: 3rem 0;
+    padding: 2rem;
+    background: var(--theme-primary-light);
+    border-radius: 8px;
+  }
+
+  .trivia-placeholder {
+    margin: 2rem 0;
+  }
+
+  .trivia-placeholder p {
+    margin: 1rem 0;
+    padding: 1rem;
+    background: white;
+    border-radius: 4px;
+  }
+
+  .myth-busting {
+    margin: 3rem 0;
+  }
+
+  .myth-card {
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    background: var(--theme-surface-2);
+    border-radius: 8px;
+  }
+
+  .myth-card h3 {
+    color: var(--theme-danger, #d32f2f);
+    margin-bottom: 0.5rem;
+  }
+</style>

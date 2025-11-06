@@ -1,0 +1,379 @@
+---
+import { Container } from '@components/odyssey-theme';
+import Layout from '../../layouts/Page.astro';
+
+const seo = {
+  title: 'Cat Health Guide | All About Cat\'s',
+  description: 'Comprehensive guide to cat health, wellness, common diseases, preventive care, and when to see a vet.',
+};
+---
+
+<Layout {seo}>
+  <Container>
+    <section class="hero-section">
+      <h1>Cat Health & Wellness 🏥</h1>
+      <p class="lead">
+        Keep your cat healthy and happy with our comprehensive guide to feline health, preventive care, and common medical concerns.
+      </p>
+    </section>
+
+    <section class="preventive-care">
+      <h2>Preventive Care</h2>
+
+      <div class="care-card">
+        <h3>💉 Vaccinations</h3>
+        <p><strong>Core Vaccines:</strong></p>
+        <ul>
+          <li>[Add vaccine 1 and schedule]</li>
+          <li>[Add vaccine 2 and schedule]</li>
+          <li>[Add vaccine 3 and schedule]</li>
+        </ul>
+        <p><strong>Non-Core Vaccines:</strong></p>
+        <ul>
+          <li>[Add optional vaccines based on lifestyle]</li>
+        </ul>
+      </div>
+
+      <div class="care-card">
+        <h3>🐛 Parasite Prevention</h3>
+        <p><strong>Fleas & Ticks:</strong> [Add prevention methods]</p>
+        <p><strong>Heartworm:</strong> [Add prevention information]</p>
+        <p><strong>Intestinal Parasites:</strong> [Add deworming schedule]</p>
+      </div>
+
+      <div class="care-card">
+        <h3>🩺 Regular Check-ups</h3>
+        <p><strong>Kittens:</strong> [Add vet visit schedule]</p>
+        <p><strong>Adult Cats:</strong> [Add vet visit schedule]</p>
+        <p><strong>Senior Cats:</strong> [Add vet visit schedule]</p>
+      </div>
+
+      <div class="care-card">
+        <h3>🦷 Dental Care</h3>
+        <p>[Add dental health information]</p>
+        <ul>
+          <li>[Add home dental care tips]</li>
+          <li>[Add professional cleaning recommendations]</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="common-conditions">
+      <h2>Common Health Conditions</h2>
+
+      <div class="condition-category">
+        <h3>Digestive Issues</h3>
+
+        <div class="condition-card">
+          <h4>Hairballs</h4>
+          <p><strong>Symptoms:</strong> [Add symptoms]</p>
+          <p><strong>Prevention:</strong> [Add prevention tips]</p>
+          <p><strong>Treatment:</strong> [Add treatment options]</p>
+        </div>
+
+        <div class="condition-card">
+          <h4>Vomiting & Diarrhea</h4>
+          <p><strong>Causes:</strong> [Add common causes]</p>
+          <p><strong>When to worry:</strong> [Add warning signs]</p>
+          <p><strong>Treatment:</strong> [Add treatment approach]</p>
+        </div>
+      </div>
+
+      <div class="condition-category">
+        <h3>Urinary Issues</h3>
+
+        <div class="condition-card">
+          <h4>Urinary Tract Infections (UTI)</h4>
+          <p><strong>Symptoms:</strong> [Add symptoms]</p>
+          <p><strong>Risk factors:</strong> [Add risk factors]</p>
+          <p><strong>Treatment:</strong> [Add treatment]</p>
+        </div>
+
+        <div class="condition-card">
+          <h4>Bladder Stones</h4>
+          <p><strong>Symptoms:</strong> [Add symptoms]</p>
+          <p><strong>Prevention:</strong> [Add prevention]</p>
+          <p><strong>Treatment:</strong> [Add treatment]</p>
+        </div>
+      </div>
+
+      <div class="condition-category">
+        <h3>Respiratory Issues</h3>
+
+        <div class="condition-card">
+          <h4>Upper Respiratory Infections</h4>
+          <p><strong>Symptoms:</strong> [Add symptoms]</p>
+          <p><strong>Causes:</strong> [Add causes]</p>
+          <p><strong>Treatment:</strong> [Add treatment]</p>
+        </div>
+
+        <div class="condition-card">
+          <h4>Asthma</h4>
+          <p><strong>Symptoms:</strong> [Add symptoms]</p>
+          <p><strong>Management:</strong> [Add management strategies]</p>
+        </div>
+      </div>
+
+      <div class="condition-category">
+        <h3>Skin & Coat Issues</h3>
+
+        <div class="condition-card">
+          <h4>Allergies</h4>
+          <p><strong>Types:</strong> [Add types of allergies]</p>
+          <p><strong>Symptoms:</strong> [Add symptoms]</p>
+          <p><strong>Management:</strong> [Add management]</p>
+        </div>
+
+        <div class="condition-card">
+          <h4>Ringworm</h4>
+          <p><strong>Symptoms:</strong> [Add symptoms]</p>
+          <p><strong>Contagious:</strong> [Add contagion information]</p>
+          <p><strong>Treatment:</strong> [Add treatment]</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="senior-health">
+      <h2>Senior Cat Health</h2>
+
+      <div class="senior-info">
+        <h3>Common Age-Related Conditions</h3>
+        <div class="condition-list">
+          <div class="senior-condition">
+            <h4>Kidney Disease</h4>
+            <p>[Add information about chronic kidney disease]</p>
+          </div>
+          <div class="senior-condition">
+            <h4>Hyperthyroidism</h4>
+            <p>[Add information about thyroid issues]</p>
+          </div>
+          <div class="senior-condition">
+            <h4>Arthritis</h4>
+            <p>[Add information about joint health]</p>
+          </div>
+          <div class="senior-condition">
+            <h4>Diabetes</h4>
+            <p>[Add information about feline diabetes]</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="emergency-signs">
+      <h2>⚠️ Emergency Warning Signs</h2>
+      <p class="emergency-intro">Seek immediate veterinary care if you notice:</p>
+      <div class="emergency-grid">
+        <div class="emergency-item">
+          <h4>🚨 Difficulty Breathing</h4>
+          <p>[Add details]</p>
+        </div>
+        <div class="emergency-item">
+          <h4>🚨 Inability to Urinate</h4>
+          <p>[Add details]</p>
+        </div>
+        <div class="emergency-item">
+          <h4>🚨 Seizures</h4>
+          <p>[Add details]</p>
+        </div>
+        <div class="emergency-item">
+          <h4>🚨 Severe Bleeding</h4>
+          <p>[Add details]</p>
+        </div>
+        <div class="emergency-item">
+          <h4>🚨 Toxin Ingestion</h4>
+          <p>[Add details and poison hotline]</p>
+        </div>
+        <div class="emergency-item">
+          <h4>🚨 Collapse/Unresponsive</h4>
+          <p>[Add details]</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="first-aid">
+      <h2>Basic First Aid</h2>
+      <div class="first-aid-grid">
+        <div class="first-aid-card">
+          <h3>First Aid Kit Essentials</h3>
+          <ul>
+            <li>[Add essential items]</li>
+          </ul>
+        </div>
+        <div class="first-aid-card">
+          <h3>How to Handle Common Emergencies</h3>
+          <p>[Add basic first aid instructions]</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="wellness-tips">
+      <h2>Daily Wellness Checks</h2>
+      <p>What to monitor at home:</p>
+      <ul>
+        <li><strong>Eating & Drinking:</strong> [Add what's normal]</li>
+        <li><strong>Litter Box:</strong> [Add what to watch for]</li>
+        <li><strong>Energy Level:</strong> [Add normal behavior]</li>
+        <li><strong>Coat Condition:</strong> [Add healthy indicators]</li>
+        <li><strong>Weight:</strong> [Add monitoring tips]</li>
+      </ul>
+    </section>
+
+    <section class="vet-relationship">
+      <h2>Building a Relationship with Your Vet</h2>
+      <p>[Add tips for choosing a vet and maintaining good communication]</p>
+    </section>
+  </Container>
+</Layout>
+
+<style>
+  .hero-section {
+    text-align: center;
+    margin: 3rem 0;
+  }
+
+  .lead {
+    font-size: 1.25rem;
+    color: var(--theme-text-secondary);
+    max-width: 800px;
+    margin: 1rem auto;
+  }
+
+  .preventive-care, .common-conditions, .senior-health {
+    margin: 3rem 0;
+  }
+
+  .care-card {
+    margin: 2rem 0;
+    padding: 2rem;
+    background: var(--theme-surface-1);
+    border-radius: 8px;
+    border-left: 4px solid var(--theme-primary);
+  }
+
+  .care-card h3 {
+    margin-bottom: 1rem;
+  }
+
+  .care-card ul {
+    margin: 1rem 0;
+    padding-left: 2rem;
+  }
+
+  .condition-category {
+    margin: 2rem 0;
+  }
+
+  .condition-card {
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    background: var(--theme-surface-1);
+    border-radius: 8px;
+  }
+
+  .condition-card h4 {
+    color: var(--theme-primary);
+    margin-bottom: 1rem;
+  }
+
+  .condition-card p {
+    margin: 0.5rem 0;
+  }
+
+  .senior-info {
+    padding: 2rem;
+    background: var(--theme-surface-1);
+    border-radius: 8px;
+  }
+
+  .condition-list {
+    display: grid;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .senior-condition {
+    padding: 1.5rem;
+    background: var(--theme-surface-2);
+    border-radius: 4px;
+  }
+
+  .emergency-signs {
+    margin: 3rem 0;
+    padding: 2rem;
+    background: #fff3e0;
+    border: 2px solid #ff9800;
+    border-radius: 8px;
+  }
+
+  .emergency-intro {
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+
+  .emergency-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .emergency-item {
+    padding: 1.5rem;
+    background: white;
+    border-radius: 8px;
+    border-left: 4px solid #d32f2f;
+  }
+
+  .emergency-item h4 {
+    color: #d32f2f;
+    margin-bottom: 0.5rem;
+  }
+
+  .first-aid {
+    margin: 3rem 0;
+  }
+
+  .first-aid-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .first-aid-card {
+    padding: 2rem;
+    background: var(--theme-surface-1);
+    border-radius: 8px;
+  }
+
+  .first-aid-card ul {
+    margin-top: 1rem;
+    padding-left: 2rem;
+  }
+
+  .wellness-tips {
+    margin: 3rem 0;
+    padding: 2rem;
+    background: var(--theme-primary-light);
+    border-radius: 8px;
+  }
+
+  .wellness-tips ul {
+    margin-top: 1rem;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .wellness-tips li {
+    margin: 1rem 0;
+    padding: 1rem;
+    background: white;
+    border-radius: 4px;
+  }
+
+  .vet-relationship {
+    margin: 3rem 0;
+    padding: 2rem;
+    background: var(--theme-surface-1);
+    border-radius: 8px;
+  }
+</style>

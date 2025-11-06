@@ -106,6 +106,12 @@ The easiest way to deploy your Astro site is with Vercel:
 │   ├── components/      # Reusable Astro/React/Vue components
 │   ├── layouts/         # Page layouts
 │   ├── pages/           # File-based routing pages
+│   │   ├── blog/        # Blog posts
+│   │   └── cats/        # Cat-specific pages
+│   │       ├── gallery.astro      # Photo gallery
+│   │       ├── fun-facts.astro    # Fun cat facts
+│   │       ├── behavior.astro     # Behavior guide
+│   │       └── health.astro       # Health information
 │   ├── styles/          # Global styles and Tailwind config
 │   └── config/          # Site configuration
 ├── astro.config.mjs     # Astro configuration
@@ -113,6 +119,20 @@ The easiest way to deploy your Astro site is with Vercel:
 ├── tsconfig.json        # TypeScript configuration
 └── package.json         # Project dependencies
 ```
+
+## 📝 Content Structure
+
+### Blog Posts
+Located in `src/pages/blog/posts/`:
+- **Cat Breed Guides**: Persian, Maine Coon, Siamese (with placeholders for more)
+- **Care Guides**: Grooming, Nutrition, Litter Box Training
+
+### Dedicated Pages
+Located in `src/pages/cats/`:
+- **Gallery** (`/cats/gallery`) - Photo gallery with categories
+- **Fun Facts** (`/cats/fun-facts`) - Interesting cat facts and trivia
+- **Behavior** (`/cats/behavior`) - Body language and behavior guide
+- **Health** (`/cats/health`) - Health information and wellness tips
 
 ## 🎨 Customization
 
