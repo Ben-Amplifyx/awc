@@ -11,10 +11,19 @@ const seo = {
 <Layout {seo}>
   <Container>
     <section class="hero-section">
-      <h1>Fun Cat Facts 🎉</h1>
-      <p class="lead">
-        Discover fascinating and entertaining facts about our feline friends that will amaze and delight you!
-      </p>
+      <div class="hero-content">
+        <h1>Fun Cat Facts 🎉</h1>
+        <p class="lead">
+          Discover fascinating and entertaining facts about our feline friends that will amaze and delight you!
+        </p>
+      </div>
+      <div class="hero-image">
+        <img
+          src="/assets/images/cats/facts.jpeg"
+          alt="Fun Cat Facts"
+          class="featured-image"
+        />
+      </div>
     </section>
 
     <section class="facts-section">
@@ -145,6 +154,27 @@ const seo = {
   .hero-section {
     text-align: center;
     margin: 3rem 0;
+    display: grid;
+    gap: 2rem;
+  }
+
+  .hero-content {
+    margin-bottom: 1rem;
+  }
+
+  .hero-image {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+
+  .featured-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
   .lead {
