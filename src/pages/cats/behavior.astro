@@ -11,6 +11,13 @@ const seo = {
 <Layout {seo}>
   <Container>
     <section class="hero-section">
+      <div class="behavior-hero-image">
+        <img
+          src="/assets/images/owner-petting-a-hissing-angry-tabby-cat_AnnaKraynova_shutterstock.jpeg"
+          alt="Cat displaying defensive behavior"
+          class="hero-image"
+        />
+      </div>
       <h1>Understanding Cat Behavior 🐈</h1>
       <p class="lead">
         Learn to decode your cat's behavior, body language, and vocalizations to build a stronger, more loving relationship.
@@ -246,6 +253,19 @@ const seo = {
   .hero-section {
     text-align: center;
     margin: 3rem 0;
+  }
+
+  .behavior-hero-image {
+    margin: 2rem auto;
+    max-width: 800px;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
   }
 
   .lead {
